@@ -1,29 +1,24 @@
 extends(src='layout.sgr')
   block(name='content')
-    h2 Hello World!
-    p(retext-skip) Thanks for using <a href='https://github.com/static-dev/spike'>spike</a>
-    p Example of locals: {{ foo }}
-    p(mdi) Example of **markdown**
-    p Example of "smart quotes" -- and dashes
 
-    hr
+    main
+      figure
+        img(src='/img/sophies-narwhal.jpg')
 
-    h3 Getting Started
-    h4 The Stack:
-    ul
-      li
-        a(href="http://github.com/reshape/reshape") reshape
-        |  for HTML transforms
-      li
-        a(href="https://babeljs.io/") babel
-        |  for JS transforms
-      li
-        a(href="http://postcss.org/") postcss
-        |  for CSS transforms
-      li
-        a(href="http://webpack.github.io") webpack
-        |  for JS bundling
+      #hero
+        h1 Sophia's 9th Birthday Sleepover Party!
+        p.h3 Saturday January 27th 4:00pm
+        p.h3 2606 Foster Ave
+        p.h3 Baltimore MD 21224
 
-    p Customize your settings by editing the
-      a(href="https://spike.readme.io/docs/appjs") app.js
-      |  file or simply start by editing this view
+    #map
+      iframe(height='500' frameborderd='0' style='border: 0' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3088.1755426884456!2d-76.581503484972!3d39.2842693316525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c80476243a7051%3A0xf3e2fdf72dc30fd!2s2606+Foster+Ave%2C+Baltimore%2C+MD+21224!5e0!3m2!1sen!2sus!4v1516047524076")
+
+//map
+//event details
+  //date
+  //time
+  //address
+  //rsvp cta
+  //faq link
+  
