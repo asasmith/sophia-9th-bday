@@ -4,8 +4,9 @@ extends(src='layout.sgr')
     section
 
       h3#hero If you have questions that aren’t answered here call or email us:
-        a(href='mailto:smith.asa.la@gmail.com') smith.asa.la@gmail.com
-        a(href='tel:14344669050') (434) 466-9050
+        .contact
+          a(href='tel:14344669050') (434) 466-9050
+          a(href='mailto:smith.asa.la@gmail.com') smith.asa.la@gmail.com
 
       article
         input(type='checkbox')
