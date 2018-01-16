@@ -4,6 +4,19 @@ extends(src='layout.sgr')
     section
 
       h3#hero If you have any questions that aren't answered here feel free to reach out via email or phone
+
+      article
+        input(type='checkbox')
+              
+        span  
+        span
+
+        .faq-wrapper
+
+          h3 Can my child attend the party if they can't spend the night?
+          div.answer
+            p Absolutely! Sophia would love her friends to attend, just let us know how we can best accomodate your schedule. 
+
       article
         input(type='checkbox')
               
