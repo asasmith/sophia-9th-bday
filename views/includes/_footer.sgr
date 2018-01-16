@@ -1,0 +1,6 @@
+footer
+  
+  h3 contact
+  #contact
+    a(href='mailto: smith.asa.la@gmail.com') smith.asa.la@gmail.com |
+    a(href='tel:14344669050') (434) 466-9050
