@@ -1,4 +1,4 @@
 header
 
   a.h3(href='#') faq
-  a.h3(href='#') rsvp
+  a.h3(href='rsvp') rsvp
