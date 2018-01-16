@@ -17,5 +17,6 @@ html
 
     block(name='content')
 
+    include(src='/includes/_footer.sgr')
     block(name='javascript')
       script(src='js/main.js' defer)

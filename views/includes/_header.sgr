@@ -1,7 +1,7 @@
 header
   #home
-    a.h3(href='/') home
+    a.h4(href='/') home
 
   nav
-    a.h3(href='#') faq
-    a.h3(href='rsvp') rsvp
+    a.h4(href='#') faq
+    a.h4(href='rsvp') rsvp
