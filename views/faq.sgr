@@ -3,7 +3,9 @@ extends(src='layout.sgr')
 
     section
 
-      h3#hero If you have any questions that aren't answered here feel free to reach out via email or phone
+      h3#hero If you have questions that aren’t answered here call or email us:
+        a(href='mailto:smith.asa.la@gmail.com') smith.asa.la@gmail.com
+        a(href='tel:14344669050') (434) 466-9050
 
       article
         input(type='checkbox')
@@ -13,7 +15,7 @@ extends(src='layout.sgr')
 
         .faq-wrapper
 
-          h3 Can my child attend the party if they can't spend the night?
+          h3 Can my child attend the party if she can't spend the night?
           div.answer
             p Absolutely! Sophia would love her friends to attend, just let us know how we can best accomodate your schedule. 
 
@@ -54,7 +56,7 @@ extends(src='layout.sgr')
           h3 What food will be served?
 
           div.answer
-            p Pizza, snacks, cake, and ice cream will be served for dinner. Breakfast options will include pancakes, yogurt, and granola.
+            p Pizza, snacks, cake, and ice cream will be served for dinner. Breakfast options will include pancakes, yogurt, and granola. Let us know if your child has any dietary restrictions or allergies.
 
       article
         input(type='checkbox')
