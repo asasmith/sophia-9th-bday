@@ -6,6 +6,8 @@ html
     meta(name='description' content='')
     meta(name='author' content='asasmith')
     meta(name='viewport' content='width=device-width, initial-scale=1')
+    script(async src="https://www.googletagmanager.com/gtag/js?id=UA-112556281-1")
+    script window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-112556281-1');
 
     block(name='title')
       title Sophia's Epic Birthday Bash
