@@ -1,0 +1,94 @@
+extends(src='layout.sgr')
+  block(name='content')
+
+    section
+      article
+        input(type='checkbox')
+              
+        span  
+        span
+
+        .faq-wrapper
+
+          h3 Where will my child be sleeping?
+
+          div.answer
+            p Your child will have plenty of safe and comfortable sleeping options, including shared beds and air mattresses in Sophia’s room, or on the couches downstairs. 
+
+      article
+        input(type='checkbox')
+              
+        span  
+        span
+
+        .faq-wrapper
+
+          h3 What should my child bring?
+          div.answer
+
+            p Pajamas! We have plenty of bedding but if she’d like to bring her own, feel free to pack a sleeping bag, pillow, blanket and/or stuffed animal.  
+
+      article
+        input(type='checkbox')
+              
+        span  
+        span
+
+        .faq-wrapper
+
+          h3 What food will be served?
+
+          div.answer
+            p Pizza, snacks, cake, and ice cream will be served for dinner. Breakfast options will include pancakes, yogurt, and granola.
+
+      article
+        input(type='checkbox')
+              
+        span  
+        span
+
+        .faq-wrapper
+
+          h3 Why is the party in Baltimore?
+
+          div.answer
+            p Sophia is hosting her party at her dad’s house this year, down in Baltimore city. Look for balloons and a party sign out front to find our home!
+
+      article
+        input(type='checkbox')
+              
+        span  
+        span
+
+        .faq-wrapper
+
+          h3 Is Baltimore safe?
+
+          div.answer
+            p Yes. Our residential neighborhood is filled with families with children, situated between a sprawling award-winning park and the beautiful Baltimore waterfront.
+
+      article
+        input(type='checkbox')
+              
+        span  
+        span
+
+        .faq-wrapper
+
+          h3 I want to come in with my daughter at drop off. Where can I park?
+
+          div.answer
+            p You will find plenty of on-street parking around our block. Keep an eye out for one-way signs. If you have any trouble, just give us a call or text at 434-466-9050 or  410-402-0558 and we will be glad to come out and assist you in parking!
+
+      article
+        input(type='checkbox')
+              
+        span  
+        span
+
+        .faq-wrapper
+
+          h3 What time should I pick up my daughter?
+
+          div.answer
+            p Breakfast will be served around 9am. Suggested pickup time is 10am.

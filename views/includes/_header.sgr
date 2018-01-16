@@ -3,5 +3,5 @@ header
     a.h4(href='/') home
 
   nav
-    a.h4(href='#') faq
+    a.h4(href='faq') faq
     a.h4(href='rsvp') rsvp
