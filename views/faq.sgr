@@ -3,7 +3,7 @@ extends(src='layout.sgr')
 
     section
 
-      h3#hero If you have any questions that aren't answered here feel free to reach out via email of phone
+      h3#hero If you have any questions that aren't answered here feel free to reach out via email or phone
       article
         input(type='checkbox')
               
@@ -15,7 +15,7 @@ extends(src='layout.sgr')
           h3 Where will my child be sleeping?
 
           div.answer
-            p Your child will have plenty of safe and comfortable sleeping options, including shared beds and an mattresses in Sophia’s room, or on the couches downstairs. 
+            p Your child will have plenty of safe and comfortable sleeping options, including shared beds and air mattresses in Sophia’s room, or on the couches downstairs. 
 
       article
         input(type='checkbox')
