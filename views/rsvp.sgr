@@ -1,0 +1,14 @@
+extends(src='layout.sgr')
+  block(name='content')
+
+    form(name='rsvp' action='thank-you' netlify)
+      label(for='name') Your child's name
+        input#name(type='text' name='name' required)
+
+      label(for='tel') Phone number
+        input#tel(type='tel' name='tel' required) 
+
+      label(for='instructions') Special instructions (dietary restrictions, allergies, etc)
+        textarea#instructions(type='text' name='instructions' rows='10' cols='50')
+
+      button(type='submit') submit
