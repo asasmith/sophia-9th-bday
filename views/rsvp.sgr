@@ -1,7 +1,7 @@
 extends(src='layout.sgr')
   block(name='content')
 
-    form(name='rsvp' action='thank-you' netlify)
+    form#rsvp(name='rsvp' action='thank-you' netlify)
       label(for='name') Your child's name
         input#name(type='text' name='name' required)
 
